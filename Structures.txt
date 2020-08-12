@@ -1,0 +1,24 @@
+ARRAYS
+1.It is a sequentially-allocated data structure of a fixed-size. It is indexed and allows for the random access of items.
+2.Can be allocated both statically and dynamically.
+3.Using indexes,append functions,etc we can put and get numbers in an array depending on th language being used.
+4.They are used to mainly refer to a collection of variables of the same type or matrices or to implemement other DS also
+
+LINKED LIST
+1.LinkedList is ideal for sequential access.
+2. Dynamic memory allocation is referred for Linked lists.
+3.We can use get() or iterate() methods
+4.They can be used to implement stacks, queues, and other abstract data types.
+
+
+STACK
+1.Stack are in RAM and are accessed using stack pointer register.
+2.Supports both static and dynamic allocation
+3.Using push and pop we can put and get numbers.
+4.Used in expression evaluationa and backtracking algorithms.
+
+QUEUE
+1.Supports sequential access.
+2.Supports both static and dynamic allocation
+3.Using enqueue and dequeue operations we can put and get numbers.
+4.Used in CPU task scheduling,disk scheduling,etc.
