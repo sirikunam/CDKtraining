@@ -1,0 +1,26 @@
+QUEUES:
+
+OPRERATIONS :
+Enqueue: Add an element to the end of the queue
+Dequeue: Remove an element from the front of the queue
+IsEmpty: Check if the queue is empty
+IsFull: Check if the queue is full
+Peek: Get the value of the front of the queue without removing it
+
+ALGORITHM :
+
+1. take two variables FRONT ,REAR  and create one array
+2. set value of FRONT and REAR to -1
+
+#enqueue
+5.check if the queue is full
+6.if (front == -1),set value of FRONT to 0
+7.Now,increase the REAR index by 1
+8.Add the new element in the position pointed to by REAR
+
+#dequeue
+8.check if the queue is empty
+9.return the value pointed by FRONT
+10.if (front >= rear) , set FRONT and REAR to -1
+11.increase the FRONT index by 1
+11.for last element, reset the values of FRONT and REAR to -1
